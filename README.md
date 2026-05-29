@@ -82,10 +82,12 @@ Esta aplicação pode ser executada utilizando containers com Docker, facilitand
 ### Pré-requisitos
 
 - Docker instalado (recomendado: Docker Desktop)
+- Repositório de infraestrutura do projeto clonado
+- Repositórios do front-end, back-end e infra organizados na mesma workspace
 
 ### 🚀 Como executar
 
-Na raiz do projeto (onde está o arquivo `docker-compose.yml`), execute:
+Na pasta da infra do projeto (onde está o arquivo `docker-compose.yml`), execute:
 
 ```bash
 docker compose up --build
